@@ -1,0 +1,25 @@
+Assignment #1 - TF-IDF
+Instructions
+The second assignment involves a programming exercise to compute a basic text transformation very common in Natural Language Processing.
+
+ 
+
+Using the seven texts from https://github.com/Juanlu001/bts-mbds-data-science-foundations/blob/master/sessions/05-Text-Mining-II.ipynb, do the following:
+
+Write a function tf that receives a string and a spaCy Doc and returns the number of times the word appears in the lemmatized Doc
+Write a function idf that receives a string and a list of spaCy Docs and returns the inverse of the number of docs that contain the word
+Write a function tf_idf that receives a string, a spaCy Doc and a list of spaCy Docs and returns the product of tf(t, d) · idf(t, D).
+Write a function all_lemmas that receives a list of Docs and returns a set of all available lemmas
+Write a function tf_idf_doc that receives a Doc and a list of Docs and returns a dictionary of {lemma: TF-IDF value}, corresponding to each the lemmas of all the available documents
+Write a function tf_idf_scores that receives a list of Docs and returns a DataFrame displaying the lemmas in the columns and the documents in the rows.
+Visualize the TF-IDF in a heatmap.
+The grading will be as follows: 0.5 points for each correct answer above, and 1 extra point for overall presentation, aesthetics, code quality and originality, to a maximum of 4.5 points.
+
+ 
+
+The format of the delivery *must*:
+
+be a Jupyter notebook
+whose name should contain the name and surname of the student
+run, top to bottom, without errors on a capable computer with Python 3.6
+and include explanations in the form of text cells, and code comments where appropriate.
