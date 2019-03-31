@@ -11,7 +11,3 @@ Notice that, even though we will use only a subset, this needs around 2 GB of RA
 5. What is the median trip distance per passenger count? Represent it in text and graphical form
 6. Create a new column payment_type_text that is 'Cash' if payment_type is 2 and 'Other' otherwise
 7. Bonus points: what is the correlation between leaving no tip and paying with cash? 
-
-The grading will be as follows: 0.5 points for each correct answer above, and 1 extra point for overall presentation, aesthetics, code quality and originality. Yes: the maximum theoretical grade is thus 4.5 out of 4, but only 4 points will be awarded.
-
-The format of the delivery *must* be a Jupyter notebook that should run, top to bottom, without errors on a capable computer with Python 3.6. It should include explanations in the form of text cells, and code comments where appropriate.
